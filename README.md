@@ -117,3 +117,7 @@ const zones = await bmsSDK.getZones();
 ```javascript
 [{"__typename":"Zone","zoneId":417239,"name":"Zone 1"},{"__typename":"Zone","zoneId":417240,"name":"Zone 1"}]
 ```
+
+### Sample
+For sample implementation of this SDK, please refers to this repository:
+https://github.com/Viatick-co/bms-js-sdk-sample
