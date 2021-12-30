@@ -24,10 +24,10 @@ const handleScriptInject = ({ scriptTags }) => {
 ...
 
 <Helmet
-         onChangeClientState={(_, addedTags) => handleScriptInject(addedTags)}
-       >
-         <script src="bms-js-sdk.min.js" />
-       </Helmet>
+  onChangeClientState={(_, addedTags) => handleScriptInject(addedTags)}
+>
+  <script src="bms-js-sdk.min.js" />
+</Helmet>
 ```
 
 ### Setup
