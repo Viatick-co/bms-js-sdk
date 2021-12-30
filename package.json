@@ -1,0 +1,17 @@
+{
+  "name": "bms-map-js-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bms-map-js-sdk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
